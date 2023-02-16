@@ -13,6 +13,9 @@ export default defineConfig({
         ws: true,
       },
     },
+    hmr: {
+      protocol: "ws",
+    },
   },
   define: {
     global: {},
